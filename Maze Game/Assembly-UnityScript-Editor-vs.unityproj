@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0A33102B-2D4B-2732-4B36-CEE298010346}</ProjectGuid>
+	<ProjectGuid>{547F93A2-561A-9E17-B034-56D6B60E746C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -115,6 +115,7 @@
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\TinySkeleton\Documents\Readme.txt" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
@@ -130,10 +131,10 @@
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Dokojel/Documents/New Unity Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/fade/Desktop/Schork/School/Spring 2015/INF 465/GitHub/GameRep/Maze Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Dokojel/Documents/New Unity Project/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/fade/Desktop/Schork/School/Spring 2015/INF 465/GitHub/GameRep/Maze Game/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -147,9 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{78E18ACD-EF8D-7B4D-0BD8-A7232AD8335B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{0FAA79C0-D439-C78C-FC16-E3C2DDCBEA87}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
