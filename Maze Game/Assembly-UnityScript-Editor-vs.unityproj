@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{0A33102B-2D4B-2732-4B36-CEE298010346}</ProjectGuid>
+	<ProjectGuid>{547F93A2-561A-9E17-B034-56D6B60E746C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,20 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\AntialiasingAsPostEffectEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\BloomAndLensFlaresEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\BloomEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\CameraMotionBlurEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\ColorCorrectionCurvesEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\ColorCorrectionLutEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\DepthOfField34Editor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\DepthOfFieldScatterEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\EdgeDetectEffectNormalsEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\NoiseAndGrainEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\SunShaftsEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\TiltShiftEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\TonemappingEditor.js" />
-     <Compile Include="Assets\LowPolyBushVinesPackage\Editor\Image Effects\VignettingEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\AntialiasingAsPostEffectEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\BloomAndLensFlaresEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\BloomEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\CameraMotionBlurEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\ColorCorrectionCurvesEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\ColorCorrectionLutEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\DepthOfField34Editor.js" />
+     <Compile Include="Assets\Editor\Image Effects\DepthOfFieldScatterEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\EdgeDetectEffectNormalsEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\NoiseAndGrainEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\SunShaftsEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\TonemappingEditor.js" />
+     <Compile Include="Assets\Editor\Image Effects\VignettingEditor.js" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
@@ -92,6 +91,7 @@
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Elementals\!Readme.txt" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
@@ -125,15 +125,16 @@
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\TinyMonsterPack\Documents\Readme.txt" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Dokojel/Documents/New Unity Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Dokojel/Documents/College/Albany/Maze Game/GameRep/Maze Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Dokojel/Documents/New Unity Project/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Dokojel/Documents/College/Albany/Maze Game/GameRep/Maze Game/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -147,9 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{78E18ACD-EF8D-7B4D-0BD8-A7232AD8335B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{0FAA79C0-D439-C78C-FC16-E3C2DDCBEA87}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
