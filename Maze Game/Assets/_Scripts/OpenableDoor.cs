@@ -6,10 +6,10 @@ public class OpenableDoor : MonoBehaviour {
 
 	public Text ActionText;
 
-	float smooth = 2.0f;
-	float DoorOpenAngle = 90.0f;
-	private bool open;
-	private bool enter;
+	public float smooth = 2.0f;
+	public float DoorOpenAngle = 90.0f;
+	public bool open;
+	public bool enter;
 
 	private Vector3 defaultRot;
 	private Vector3 openRot;
@@ -47,7 +47,10 @@ public class OpenableDoor : MonoBehaviour {
 		if (other.gameObject.tag == "Player") 
 		{
 			enter = true;
-			ActionText.text = "Press space (e) to Enter level";
+			if(!open)
+			{
+				ActionText.text = "Press space (e) to Enter level";
+			}
 		}
 	}
 	
