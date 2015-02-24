@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\GateOpenLeft.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Water FX Pack\Scripts\ScrollUV.js">
     <Files>
-      <File FileName="Assets\_Scripts\OpenableDoor.cs" Line="48" Column="4" />
-      <File FileName="Assets\_Scripts\GateOpenLeft.cs" Line="50" Column="1" />
+      <File FileName="Assets\Water FX Pack\Scripts\ScrollUV.js" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\OpenableDoor.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
