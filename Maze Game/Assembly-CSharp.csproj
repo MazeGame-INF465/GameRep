@@ -65,10 +65,11 @@
      <Compile Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
      <Compile Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
      <Compile Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
-     <Compile Include="Assets\_Scripts\EnterNewLevel.cs" />
      <Compile Include="Assets\_Scripts\OpenableDoor.cs" />
      <Compile Include="Assets\_Scripts\QM_HarvestTerrainTree.cs" />
      <Compile Include="Assets\_Scripts\QM_ResourceManager.cs" />
+     <Compile Include="Assets\_Scripts\TrapStart.cs" />
+     <Compile Include="Assets\_Scripts\TriggerEvent.cs" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\LowPolyBushVinesPackage\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
